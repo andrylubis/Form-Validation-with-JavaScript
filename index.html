@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Registrasi</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>	
+	<div class="form">
+		<div class="greyDarken4">
+			<h1>Registration Form</h1>
+		</div>
+		<form action="#" id="main-form" onsubmit="return validation()">
+			<div>
+				<label for="username">Username</label> :<br />
+				<input type="text" id="username" name="username" value="">
+			</div>
+			<div>
+				<label for="password">Password</label> :<br />
+				<input type="password" id="password" name="password" value="">
+			</div>
+			<div>
+				<label for="confirmPassword">Confirm Password</label> :<br />
+				<input type="password" id="confirmPassword" name="confirmPassword" value="">
+			</div>
+			<div>
+				<label for="email">Email</label> :<br />
+				<input type="email" id="email" name="email" value="">
+			</div>
+			<div>
+				<label for="confirmEmail">Confirm Email</label> :<br />
+				<input type="email" id="confirmEmail" name="confirmEmail" value="">
+			</div>
+			<div>
+				<br />			
+				<input type="submit" class="btn" value="Submit">
+			</div>
+		</form>
+	</div>
+	<script src="validation.js"></script>	
+</body>
+</html>
